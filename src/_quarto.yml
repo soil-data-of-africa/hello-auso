@@ -1,0 +1,41 @@
+project:
+  type: website
+  resources:
+    - img/*
+  render:
+    - "*.md"
+    - "*.qmd"
+
+website:
+  repo-url: https://github.com/soil-data-of-africa
+  repo-subdir: src
+  repo-actions:
+    - issue
+  page-footer:
+    left:
+    - text: AUSO
+  title: "AUSO"
+  search: true
+  navbar:
+    pinned: true
+    logo: ./img/logo.png
+    right:
+      - text: About AUSO
+        file: index.md#about-auso
+      - text: Who it's for
+        file: index.md#who-is-auso-for
+      - text: Dashboard
+        file: dashboard.md
+      - text: ASDAC Database
+        file: asdac.md
+      - text: Resources
+        file: resources.md
+      - text: Contact
+        file: contact.md
+format:
+  html:
+    css: styles.css
+    page-layout: full
+    theme:
+      light: flatly
+      dark: darkly
