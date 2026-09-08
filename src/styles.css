@@ -5,6 +5,9 @@
     color: black
 }
 
+.navbar-brand {
+  display: none !important;
+}
 
 .navbar {
     background-color: white;
