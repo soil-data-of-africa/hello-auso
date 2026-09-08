@@ -1,0 +1,134 @@
+---
+title: Documents
+---
+
+::: {.lead}
+This page provides access the technical manuals developed under the Soils4Africa project, as well as additional project reports that support the development of this SIS, and several other relevant soil resources.
+:::
+
+## Technical Manuals
+
+::: {.collapse title='SIS user manual'}
+The 'SIS user manual' describes the setup and functionality of the soil information system (SIS) for Africa that was developed under the Soils4Africa project. The manual is divided into two parts. The first part gives a detailed overview of the SIS components and illustrates their functionality and use. The second part focuses on the technical setup and implementation of the system.
+
+In addition, the manual includes hyperlinks to complementary online resources: i) a Digital Soil Mapping Tutorial, ii) a Spectral Modelling Notebook.
+
+The Digital Soil Mapping Tutorial provides a hands-on, reproducible workflow for digital soil mapping implemented in the R statistical software. It demonstrates how to produce digital soil maps from the Soils4Africa soil data in combination with covariate layers.
+
+The Spectral Modelling Jupyter notebook offers guidance on modelling and predicting of soil properties from spectral measurements using Soils4Africa data. It covers: i) visualization of spectral data, ii) preprocessing techniques, iii) training machine learning models for soil property prediction, and iv) interpretation of model results.
+
+Citation: _Asamoah., E., Turdukulov. U., Kempen, B., Calisto, L., van Genuchten, P., Urazov, I., 2025. Soil Information System Manuals. Soils4Africa Project Report. EU Horizon 2020 Grant agreement ID: 862900. Doi: 10.3030/862900_
+
+{{< icon-link title="Open manual" icon="download" link="https://africasis.isric.org/res/files/Soils4Africa_D6.4_SIS_manuals.pdf" >}}
+:::
+
+::: {.collapse title='Survey Data Management Tool user manual'}
+The ‘Survey Data Management Tool’ is a web-based platform developed to manage the field campaign of the Soils4Africa project. This manual describes its functionality and use.
+
+Citation: _Huising, E.J., Obileye, O., Ayuka, P., Mesele, S., 2022. Soils4Africa Survey Data Management Tool (SDMT) User Manual v 2.2. Soils4Africa Project Report. EU Horizon 2020 Grant agreement ID: 862900. Doi: 10.3030/862900_
+
+{{< icon-link title="Open manual" icon="download" link="https://africasis.isric.org/res/files/Soils4Africa_SDMT-User-Manual-v2-2.pdf" >}}
+
+{{< icon-link title="SDMT Video Guide (English)" icon="youtube" link="https://www.youtube.com/playlist?list=PLB4Kg_AOaGwHrbAW61xgxImg_OulZshyN" >}}
+
+{{< icon-link title="SDMT Video Guide (French)" icon="youtube" link="https://www.youtube.com/playlist?list=PLB4Kg_AOaGwFv-VfC_AYm3ETRP2AgTb_q" >}}
+
+{{< icon-link title="SDMT Video Guide (Arabic)" icon="youtube" link="https://www.youtube.com/playlist?list=PLB4Kg_AOaGwGML992CJj_KyWC3iBDy8y1" >}}
+:::
+
+::: {.collapse title='Soils4Africa data model documentation'}
+A data model provides a logical structure for storage of data in a digital system such as a relational database. This document describes the data model that was developed for the Soils4Africa project and used to implement a relational database to store the field and analytical data collected during the project. The data model is rooted in the international standard for digital exchange of soil data (ISO 28258) that was further specialized to fit the requirements for storing soil data in the Soils4Africa database.
+
+Citation: _de Sousa, L.M., Calisto, L., van Genuchten, P., Turdukulov, U., Kempen, B., 2024. Data model for the Soils4Africa project (v20240603). Soils4Africa Project Report. EU Horizon 2020 Grant agreement ID: 862900. Doi: 10.3030/862900_
+
+{{< icon-link title="Open manual" icon="download" link="https://africasis.isric.org/res/files/Soils4Africa_Data_Model_2024-06-03.pdf" >}}
+:::
+
+## Soils4Africa Project Reports
+
+::: {.collapse title='Soils4Africa sampling design'}
+The Soils4Africa project aimed to collect soil samples from 20,000 locations across Africa’s agricultural land. A continent-wide sampling scheme was designed to select the sampling locations based on a probability sampling approach. This document describes this scheme that can also be applied for future soil monitoring in Africa.
+
+Citation: _Kempen, B., Brus, D.J., De Sousa, L., 2021. Soils4Africa sampling design. Soils4Africa Project Report D3.2B. EU Horizon 2020 Grant agreement ID: 862900. Doi: 10.3030/862900_
+
+{{< icon-link title="Open report" icon="download" link="https://africasis.isric.org/res/files/Soils4Africa_D3.2B_Sampling_design_v01.pdf" >}}
+:::
+
+::: {.collapse title='Map of Agricultural Land of Continental Africa'}
+This report outlines the methodology used by the Soils4Africa project to generate a map of the agricultural land (MAL) of continental Africa and presents the resulting product. Agricultural land includes arable land, permanent crops and permanent pastures. The MAL was generated by applying agricultural land classification rules to a set of Copernicus Global Land Cover layers. The methodology resulted in two data layers: one indicating presence/absence of agricultural land and one that distinguishes 14 classes of agricultural land. The report dates from 2020. In 2021, an annex was published that presents updated agricultural land classification rules used to produce a second version of the MAL. This version of the MAL served as the sampling frame for the Soils4Africa sampling design. Both data layers are available in the  geospatial data catalogue of the SIS: [presence/absence layer](/cat/collections/metadata:main/items/MAL_AFRICA2); [agricultural land class layer](/cat/collections/metadata:main/items/mal_africa2_classes).
+
+Citation main report: _Huising, E.J., Wangui Mwangi, E. Buyengo, J., 2020. Map of agricultural land of continental Africa. Soils4Africa Project Report D4.1. EU Horizon 2020 Grant agreement ID: 862900. Doi: 10.3030/862900_
+
+Citation annex: _Huising, E.J., Buyengo, J., Kempen, B., Wangui Mwangi, E. 2021. Annex to D4.1: Map of agricultural land of continental Africa. Soils4Africa Project Report D4.1 - Annex. EU Horizon 2020 Grant agreement ID: 862900. Doi: 10.3030/862900_
+
+{{< icon-link title="Open report" icon="download" link="https://africasis.isric.org/res/files/Soils4Africa_D4.1_Map agric land_201207.pdf" >}}
+
+{{< icon-link title="Open report annex" icon="download" link="https://africasis.isric.org/res/files/Soils4Africa_D4.1_Map agric land_ANNEX.pdf" >}}
+:::
+
+::: {.collapse title='Inventory of soil data for Africa represented in the ISRIC-WDC holdings'}
+This report describes which relevant existing datasets are available in the ISRIC-WDC holdings that provide data on the soils in the agricultural areas in Africa Each data set will be briefly described, metadata will be given as well as its potential for use in this project.
+
+Citation: _Batjes, N.H., Ribeiro, E., 2021. Inventory of soil data for Africa represented in the ISRIC-WDC holdings. Soils4Africa Project Report D3.2A. EU Horizon 2020 Grant agreement ID: 862900. Doi: 10.3030/862900_
+
+{{< icon-link title="Open report" icon="download" link="https://africasis.isric.org/res/files/Soils4Africa_D3.2A_SoilDataInventory_v01.pdf" >}}
+:::
+
+::: {.collapse title='User requirements for the IT infrastructure of the Soil Information System'}
+This report documents the expectations of users towards the Soils4Africa soil information system with a collection of formal requirements. It is does not describe how the system will ultimately come to be, or how it should be implemented. It rather informs on the activities users expect the system to support, the data it is expected to host and how users intend to interact with it. These user requirements provide a guide for the development of the system. By systematising users and stakeholders expectations, requirements offer a preview of the concrete ways in which users expect to employ the system.
+
+Citation: _De Sousa, L., Turdukulov, U., Kempen, B., 2021. User requirements for the IT infrastructure. Soils4Africa Project Report D3.5. EU Horizon 2020 Grant agreement ID: 862900. Doi: 10.3030/862900_
+
+{{< icon-link title="Open report" icon="download" link="https://africasis.isric.org/res/files/Soils4Africa_D3.5_UserRequirements_IT_Infrastructure_v1.0.pdf" >}}
+:::
+
+::: {.collapse title='Technical design of the Soil Information System'}
+This report describes the technical design of the SIS. It contains a description of the technical solutions that will be deployed for building the SIS. It identifies and specifies hardware requirements, software resources, the APIs required to ingest store and manage the data provided by the laboratory and field data collection systems. It also describes the platforms and web services required to serve these data to the users via a web portal.
+
+Citation: _Turdukulov, U., Kempen, B., Mendes de Jesus, J., Calisto., L., van Genuchten, P., Poggio, L., 2021. Technical design of the Soil Information System. Soils4Africa Project Report D6.1. EU Horizon 2020 Grant agreement ID: 862900. Doi: 10.3030/862900_
+
+{{< icon-link title="Open report" icon="download" link="https://africasis.isric.org/res/files/Soils4Africa_D6.1_Technical design of the SIS_v01.pdf" >}}
+:::
+
+::: {.collapse title='A set of use cases and supporting soil quality indicators'}
+This report describes examples of potential use cases of the SIS in the field of sustainable intensification of agriculture. The use cases are developed with potential users and will lead to soil quality indicators that are needed in the context of the use case.
+
+Citation: _Fatunbi, O.A., Abhishek, A., 2020. A set of use cases plus supporting soil quality indicators. Soils4Africa Project Report D2.1. EU Horizon 2020 Grant agreement ID: 862900. Doi: 10.3030/862900_
+
+{{< icon-link title="Open report" icon="download" link="https://africasis.isric.org/res/files/Soils4Africa_D2.1_Use cases_v01.pdf" >}}
+:::
+
+::: {.collapse title='Methods for deriving selected soil quality indicators'}
+This report describes the process to identify the parameters necessary for the quantification of indicators that evaluate the impact of agricultural management practices on the agricultural soils of Africa and assess their sustainability. The selection process has considered the use requirements for soil information as described above from identified use case categories and existing Soil Information Systems in Europe such as the LUCAS Topsoil survey. In addition, the selection of indicators relies on knowledge derived from European projects addressing Soil Quality in an agricultural context, such as EU H2020 LANDMARK project (grant agreement No 635201) in which knowledge from Africa initiatives can be integrated.
+
+Citation: _Moinet, G., Creamer, R., Leenaars, J., 2021. Methods for deriving selected soil quality indicators. Soils4Africa Project Report D3.1. EU Horizon 2020 Grant agreement ID: 862900. Doi: 10.3030/862900_
+
+{{< icon-link title="Open report" icon="download" link="https://africasis.isric.org/res/files/Soils4Africa_D3.1_SoilQualityIndicators_v01.pdf" >}}
+:::
+
+## Other
+
+::: {.collapse title='Soil Atlas of Africa and its associated Soil Map (Data)'}
+The first ever SOIL ATLAS OF AFRICA uses striking maps, informative texts and stunning photographs to answer and explain these and other questions. Leading soil scientists from Europe and Africa have collaborated to produce this unique document. Using state-of-the-art computer mapping techniques, the Soil Atlas of Africa shows the changing nature of soil across the continent. It explains the origin and functions of soil, describes the different soil types that can be found in Africa and their relevance to both local and global issues. The atlas also discusses the principal threats to soil and the steps being taken to protect soil resources. The Soil Atlas of Africa is more than just a normal atlas. It presents a new and comprehensive interpretation of an often neglected natural resource. The Soil Atlas of Africa is an essential reference to a non-renewable resource that is fundamental for life on this planet.
+
+Citation: _European Commission_
+
+{{< icon-link title="Soil Atlas of Africa" icon="box-arrow-up-right" link="https://esdac.jrc.ec.europa.eu/content/soil-map-soil-atlas-africa" >}}
+:::
+
+::: {.collapse title='Global Soil Biodiversity Atlas'}
+The first-ever Global Soil Biodiversity Atlas that maps the soil biodiversity of the entire planet. The Atlas describes soil as habitat for the diversity of organisms that live under our feet. At the same time, it draws attention to the threats to soil biodiversity, such as invasive species, pollution, intensive land use practices or climate change. The Atlas provides current solutions for a sustainable management of soils. The Atlas shows that mismanaging soils could exacerbate the effects of climate change, jeopardise agricultural production, compromise the quality of ground water and worsen pollution. It also proposes solutions to safeguard soil biodiversity through the development of policies that directly or indirectly target soil health, leading to a more sustainable use.
+
+Citation: _European Commission_
+
+{{< icon-link title="Global Soil Biodiversity Atlas" icon="box-arrow-up-right" link="https://esdac.jrc.ec.europa.eu/content/global-soil-biodiversity-atlas" >}}
+:::
+
+::: {.collapse title="Status of the World's Soil Resources"}
+The SWSR is a reference document on the status of global soil resources that provides regional assessments of soil change. The information is based on peer-reviewed scientific literature, complemented with expert knowledge and project outputs. It provides a description and a ranking of ten major soil threats that endanger ecosystem functions, goods and services globally and in each region separately. Additionally, it describes direct and indirect pressures on soils and ways and means to combat soil degradation. The report contains a Synthesis report for policy makers that summarizes its findings, conclusions and recommendations.
+
+Citation: _FAO_
+
+{{< icon-link title="Status of the World's Soil Resources" icon="box-arrow-up-right" link="https://www.fao.org/policy-support/tools-and-publications/resources-details/en/c/435200/" >}}
+:::
+

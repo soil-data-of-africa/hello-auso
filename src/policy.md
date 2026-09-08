@@ -1,5 +1,6 @@
 ---
 title: Policy makers
+sidebar: false
 ---
 
 As a policy maker you are likely interested in the Soil Health Status and Soil threats at continental or regional level. 

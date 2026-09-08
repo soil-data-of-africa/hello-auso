@@ -1,5 +1,6 @@
 ---
 title: General public
+sidebar: false
 ---
 
 As a general audience you are likely interested in the Soil Health Status and Soil threats at regional level. Understand if your area has a soil health risk and which technologies are known to mitigate that risk. 

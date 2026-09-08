@@ -1,5 +1,6 @@
 ---
 title: About AUSO
+sidebar: false
 ---
 
 Soil information is critical for managing agriculture and the environment in Africa. The rapid decline in soil health on the continent threatens food security, economic development, and resilience to climate change. The current state of soil degradation poses a significant threat to African biodiversity and ecosystems, contributing directly to reduced soil productivity and increased vulnerability.

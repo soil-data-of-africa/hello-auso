@@ -1,0 +1,35 @@
+---
+title: "Page-section Example"
+filters:
+  - page-section
+---
+
+This filter creates a HTML markup for a page section.
+\
+\
+This code
+
+```md
+::: {.page-section section_name='intro'}
+The content.
+:::
+```
+
+produces:
+
+```html
+<div class="page-section page-section-intro">
+  <div class="page-section-content container page-section-intro__content">
+    The content
+  </div>
+</div>
+```
+
+## Options
+
+- `content_class` (string): adds one or more classes to the `page-section-content` div.
+- `has_bg_color` (string): adds a background color. The following is supported:
+  - `has_bg_color='primary'` for a red background color. In case of a primary background color, a `text-white` class is automatically added to the `page-section-content` div.
+  - `has_bg_color='secondary'` for a gray background color
+- `section_name` (string): adds a CSS class to the `page-section` and `page-section-content` div.
+

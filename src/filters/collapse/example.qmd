@@ -1,0 +1,8 @@
+---
+title: "Collapse Example"
+---
+
+:::{.collapse title='Klik hier'}
+The collapsed content.
+:::
+

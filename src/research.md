@@ -1,5 +1,6 @@
 ---
 title: Research
+sidebar: false
 ---
 
 As a soil researcher you are likely interested in the Soil Health Status and Soil threats at continental or regional level. However you may also be in a position that your organisation holds soil observation data which would contribute to AUSO, or perform field or lab work to obtain such data. Or you can be interested to extract some data from the platform to use in your own research.
@@ -10,7 +11,7 @@ AUSO includes a [dashboard](dashboard.qmd) in which the status and threats are v
 
 ## ASDAC Soil Data Center
 
-[ASDAC](asdac.md) is the data center where data contributions are collected and aggregated to prepare improved predictions. Continue reading there to see how your contributions matter. 
+[ASDAC](asdac/index.md) is the data center where data contributions are collected and aggregated to prepare improved predictions. Continue reading there to see how your contributions matter. 
 
 The ASDAC contains both a catalogue of source data as well as an option to extract data for reuse in your research. Most of the data is available under a CC-BY license, when using the data in your research, attribute the data accordingly.
 

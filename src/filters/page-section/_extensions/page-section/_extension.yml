@@ -1,0 +1,8 @@
+title: Page-section
+author: Sidney Gijzen
+version: 1.0.0
+quarto-required: ">=1.4.4"
+contributes:
+  filters:
+    - page-section.lua
+

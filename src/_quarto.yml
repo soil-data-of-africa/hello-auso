@@ -27,13 +27,39 @@ website:
       - text: Dashboard
         file: dashboard.qmd
       - text: ASDAC Database
-        file: asdac.md
+        file: asdac/index.md
       - text: Resources
         file: resources.md
       - text: Contact
         file: contact.md
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: ASDAC Home
+        file: asdac/index.md
+      - text: Documents
+        file: asdac/documents.md
+      - text: Procedures
+        file: asdac/procedures.md
+      - text: Data platforms
+        file: asdac/data-platforms.md
+      - text: Code Repositories
+        file: asdac/code-repositories.md
+      - text: Videos
+        file: asdac/videos.md
+      - text: Tech manuals
+        file: asdac/tech-manuals.md
+      - text: SIS software
+        file: asdac/sis-software.md
 format:
   html:
-    css: styles.css
     page-layout: full
-    theme: flatly
+    theme: 
+      - flatly
+      - styles.scss
+    filters:
+      - ./filters/collapse/_extensions/collapse/collapse.lua
+      - ./filters/page-section/_extensions/page-section/page-section.lua
+    shortcodes: 
+      - ./shortcodes/icon-link/_extensions/icon-link/icon-link.lua

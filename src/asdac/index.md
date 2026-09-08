@@ -12,11 +12,36 @@ Soil data, contributed by its members, is aggregated at a continental level to p
 
 As national soil institute or soil research group can contribute data to AUSO by populating this form. One of our team will then contact you about the details.
 
-<form action=mailto:soils@faraafrica.org>
-Name: <input type=text name=name><br/>
-Organisation: <input type=text name=organisation><br/>
-Email: <input type=text name=email><br/>
+<form action=mailto:soils@faraafrica.org method=get>
+::: {.grid}
+
+::: {.g-col-4}
+Name
+:::
+::: {.g-col-8}
+<input type=text name=name>
+:::
+::: {.g-col-4}
+Organisation
+:::
+::: {.g-col-8}
+<input type=text name=organisation>
+:::
+::: {.g-col-4}
+Email
+:::
+::: {.g-col-8}
+<input type=text name=email>
+:::
+::: {.g-col-4}
+
+:::
+::: {.g-col-8}
 <input type=submit class="btn btn-sm btn-primary">
+:::
+
+:::
+
 </form>
 
 ## Participants in ASDAC

@@ -1,3 +1,4 @@
+/*-- scss:rules --*/
 .navbar {
     background-color: white;
 }
@@ -12,8 +13,12 @@
 .navbar {
     background-color: white;
 }
-.navbar a {
-    color: black
+.navbar a, .navbar a.active, .navbar a:active {
+    color: black !important;
+}
+
+.navbar a.active, .navbar a:active {
+    font-weight: bold
 }
 
 .hero-box {
@@ -76,4 +81,46 @@
   background: white;
   color: #111827 !important;
   border: 1px solid #d1d5db;
+}
+
+
+.quarto-figure .quarto-figure {
+    margin-bottom: 0.25rem;
+}
+
+figcaption {
+    color: var(--bs-black);
+}
+
+.accordion-item {
+    border-color: $primary;
+    border-radius: 14px;
+    margin-bottom: 1.875rem;
+}
+
+.accordion-item:not(:first-of-type) {
+    border-top: 1px solid $primary;
+}
+
+.accordion-button {
+    border-radius: 14px;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.accordion-body {
+    padding-top: 0;
+}
+
+.collapse-wrapper {
+    @extend .accordion;
+    @extend .accordion-item;
+}
+
+.collapse-button {
+    @extend .accordion-button;
+}
+
+.collapse-content {
+    @extend .accordion-body;
 }

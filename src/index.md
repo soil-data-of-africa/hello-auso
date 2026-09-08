@@ -1,4 +1,7 @@
-
+---
+title: Home
+sidebar: false
+---
 
 
 ::: {.hero-box .bg-dark} 
@@ -46,7 +49,7 @@ where researchers will likely want more detailed information and databases.
 ASDAC brings together national soil institutes, universities and research institutes to optimize the soil data infrastructure in Africa.
 
 <div class="hero-actions"> 
-<a href="asdac.md" class="hero-btn secondary">Open ASDAC</a></div>
+<a href="asdac/index.md" class="hero-btn secondary">Open ASDAC</a></div>
 
 :::
 
@@ -58,11 +61,11 @@ Encourage users to get involved with AUSO - get involved with the data collectio
 contribution, provide feedback, or simply register interest.
 
 <div class="hero-actions">
-<a href="asdac.md" class="hero-btn secondary">
+<a href="asdac/index.md" class="hero-btn secondary">
 Contribute data to AUSO
 </a>
 
-<a href="asdac.md" class="hero-btn secondary">
+<a href="asdac/index.md" class="hero-btn secondary">
 Provide feedback
 on dashboard or data
 </a></div>
