@@ -36,6 +36,4 @@ format:
   html:
     css: styles.css
     page-layout: full
-    theme:
-      light: flatly
-      dark: darkly
+    theme: flatly

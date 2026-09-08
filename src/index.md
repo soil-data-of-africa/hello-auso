@@ -62,7 +62,7 @@ contribution, provide feedback, or simply register interest.
 Contribute data to AUSO
 </a>
 
-<a href="asdac.md" class="hero-btn">
+<a href="asdac.md" class="hero-btn secondary">
 Provide feedback
 on dashboard or data
 </a></div>
@@ -74,6 +74,7 @@ on dashboard or data
 # Our Partners & Collaborators
 
 A section to celebrate and highlight ministries, institutions, universities, etc. who have been involved in the making of AUSO
+
 
 
 
