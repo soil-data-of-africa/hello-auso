@@ -1,0 +1,623 @@
+<!-- ================================================================
+     Africa SoilGrids Nutrient Map
+     Quarto HTML include
+     ================================================================ -->
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+
+<style>
+  #africa-soilgrids-map {
+    width: 100%;
+    height: 650px;
+    border-radius: 18px;
+    overflow: hidden;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .soilgrids-legend {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 8px 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+    max-width: 220px;
+  }
+
+  .soilgrids-legend-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+
+  .soilgrids-legend img {
+    display: block;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .soilgrids-info {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 7px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    font-size: 0.85rem;
+  }
+
+  .soilgrids-popup-title {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .soilgrids-value {
+    font-size: 1.15rem;
+    font-weight: 700;
+  }
+
+  .leaflet-control-layers {
+    border-radius: 10px !important;
+  }
+</style>
+
+
+<div id="africa-soilgrids-map"></div>
+
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+(function () {
+
+  // ================================================================
+  // Configuration
+  // ================================================================
+
+  const WMS_URL =
+    "https://maps.isric.org/mapserv/af250m_nutrient";
+
+  const layers = {
+
+    "Total nitrogen (N)": {
+      name: "af250m_nutrient_n_m_agg30cm",
+      unit: "ppm"
+    },
+
+    "Total phosphorus (P)": {
+      name: "af250m_nutrient_p_m_agg30cm",
+      unit: "ppm"
+    },
+
+    "Extractable phosphorus (P)": {
+      name: "af250m_nutrient_p_t_m_agg30cm",
+      unit: "ppm"
+    },
+
+    "Potassium (K)": {
+      name: "af250m_nutrient_k_m_agg30cm",
+      unit: "ppm"
+    },
+
+    "Calcium (Ca)": {
+      name: "af250m_nutrient_ca_m_agg30cm",
+      unit: "ppm"
+    },
+
+    "Magnesium (Mg)": {
+      name: "af250m_nutrient_mg_m_agg30cm",
+      unit: "ppm"
+    },
+
+    "Sodium (Na)": {
+      name: "af250m_nutrient_na_m_agg30cm",
+      unit: "ppm"
+    },
+
+    "Aluminium (Al)": {
+      name: "af250m_nutrient_al_m_agg30cm",
+      unit: "ppm"
+    },
+
+    "Boron (B)": {
+      name: "af250m_nutrient_b_m_agg30cm",
+      unit: "ppm"
+    },
+
+    "Copper (Cu)": {
+      name: "af250m_nutrient_cu_m_agg30cm",
+      unit: "ppm"
+    },
+
+    "Iron (Fe)": {
+      name: "af250m_nutrient_fe_m_agg30cm",
+      unit: "ppm"
+    },
+
+    "Manganese (Mn)": {
+      name: "af250m_nutrient_mn_m_agg30cm",
+      unit: "ppm"
+    },
+
+    "Zinc (Zn)": {
+      name: "af250m_nutrient_zn_m_agg30cm",
+      unit: "ppm"
+    }
+
+  };
+
+
+  // ================================================================
+  // Map
+  // ================================================================
+
+  const map = L.map("africa-soilgrids-map", {
+    minZoom: 2,
+    maxZoom: 12
+  });
+
+
+  // Africa-focused extent
+  const africaBounds = [
+    [-38, -25],
+    [38, 55]
+  ];
+
+  map.fitBounds(africaBounds);
+
+
+  // ================================================================
+  // Satellite basemap
+  // ================================================================
+
+  const satellite = L.tileLayer(
+    "https://server.arcgisonline.com/ArcGIS/rest/services/" +
+    "World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    {
+      attribution:
+        "Tiles &copy; Esri"
+    }
+  ).addTo(map);
+
+
+  // Optional light reference layer on top of satellite
+  const labels = L.tileLayer(
+    "https://services.arcgisonline.com/ArcGIS/rest/services/" +
+    "Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",
+    {
+      attribution: "Esri",
+      opacity: 0.8,
+      pane: "overlayPane"
+    }
+  );
+
+  labels.addTo(map);
+
+
+  // ================================================================
+  // WMS layer factory
+  // ================================================================
+
+  function createWMSLayer(layerConfig) {
+
+    return L.tileLayer.wms(WMS_URL, {
+
+      layers: layerConfig.name,
+
+      format: "image/png",
+
+      transparent: true,
+
+      version: "1.3.0",
+
+      opacity: 0.72,
+
+      attribution:
+        "ISRIC – World Soil Information / Africa SoilGrids"
+
+    });
+
+  }
+
+
+  // ================================================================
+  // Create WMS layers
+  // ================================================================
+
+  const wmsLayers = {};
+
+  Object.entries(layers).forEach(([label, config]) => {
+
+    wmsLayers[label] = createWMSLayer(config);
+
+  });
+
+
+  // Start with nitrogen
+  let activeLayerName = "Total nitrogen (N)";
+
+  wmsLayers[activeLayerName].addTo(map);
+
+
+  // ================================================================
+  // Layer control
+  // ================================================================
+
+  const overlayMaps = {
+    "Country boundaries / labels": labels
+  };
+
+  Object.entries(wmsLayers).forEach(([label, layer]) => {
+    overlayMaps[label] = layer;
+  });
+
+
+  L.control.layers(
+    {
+      "Satellite": satellite
+    },
+    overlayMaps,
+    {
+      collapsed: false
+    }
+  ).addTo(map);
+
+
+  // ================================================================
+  // Legend
+  // ================================================================
+
+  const legend = L.control({
+    position: "bottomright"
+  });
+
+
+  legend.onAdd = function () {
+
+    const div = L.DomUtil.create(
+      "div",
+      "soilgrids-legend"
+    );
+
+    div.innerHTML = `
+      <div class="soilgrids-legend-title">
+        Total nitrogen (N)
+      </div>
+      <img
+        src="${legendURL(
+          layers["Total nitrogen (N)"].name
+        )}"
+        alt="Legend"
+      >
+    `;
+
+    return div;
+
+  };
+
+
+  legend.addTo(map);
+
+
+  function legendURL(layerName) {
+
+    const params = new URLSearchParams({
+
+      SERVICE: "WMS",
+
+      VERSION: "1.3.0",
+
+      REQUEST: "GetLegendGraphic",
+
+      FORMAT: "image/png",
+
+      LAYER: layerName
+
+    });
+
+    return WMS_URL + "?" + params.toString();
+
+  }
+
+
+  function updateLegend(label) {
+
+    const config = layers[label];
+
+    const legendElement =
+      document.querySelector(
+        ".soilgrids-legend"
+      );
+
+    if (!legendElement) return;
+
+    legendElement.innerHTML = `
+      <div class="soilgrids-legend-title">
+        ${label}
+      </div>
+
+      <img
+        src="${legendURL(config.name)}"
+        alt="Legend for ${label}"
+      />
+    `;
+
+  }
+
+
+  // ================================================================
+  // Keep track of selected nutrient
+  // ================================================================
+
+  map.on("overlayadd", function (event) {
+
+    const selected = Object.entries(wmsLayers)
+      .find(([label, layer]) => layer === event.layer);
+
+    if (!selected) return;
+
+    const label = selected[0];
+
+    activeLayerName = label;
+
+    updateLegend(label);
+
+    // Remove all other nutrient layers.
+    Object.entries(wmsLayers).forEach(
+      ([otherLabel, layer]) => {
+
+        if (
+          otherLabel !== label &&
+          map.hasLayer(layer)
+        ) {
+          map.removeLayer(layer);
+        }
+
+      }
+    );
+
+  });
+
+
+  // ================================================================
+  // GetFeatureInfo
+  // ================================================================
+
+  map.on("click", function (event) {
+
+    const layerConfig =
+      layers[activeLayerName];
+
+    if (!layerConfig) return;
+
+
+    // Show loading popup
+    const popup = L.popup()
+      .setLatLng(event.latlng)
+      .setContent(
+        "<strong>Loading soil value…</strong>"
+      )
+      .openOn(map);
+
+
+    // Map dimensions
+    const size = map.getSize();
+
+    const point = map.latLngToContainerPoint(
+      event.latlng
+    );
+
+
+    // WMS 1.3.0 uses CRS:84 here to keep
+    // longitude/latitude ordering intuitive.
+    const bbox =
+      map.getBounds().getSouthWest().lng + "," +
+      map.getBounds().getSouthWest().lat + "," +
+      map.getBounds().getNorthEast().lng + "," +
+      map.getBounds().getNorthEast().lat;
+
+
+    const params = new URLSearchParams({
+
+      SERVICE: "WMS",
+
+      VERSION: "1.3.0",
+
+      REQUEST: "GetFeatureInfo",
+
+      FORMAT: "image/png",
+
+      TRANSPARENT: "true",
+
+      QUERY_LAYERS: layerConfig.name,
+
+      LAYERS: layerConfig.name,
+
+      INFO_FORMAT: "application/json",
+
+      FEATURE_COUNT: "1",
+
+      CRS: "EPSG:4326",
+
+      BBOX: bbox,
+
+      WIDTH: size.x,
+
+      HEIGHT: size.y,
+
+      I: Math.round(point.x),
+
+      J: Math.round(point.y)
+
+    });
+
+
+    const url =
+      WMS_URL + "?" + params.toString();
+
+
+    fetch(url)
+
+      .then(response => {
+
+        if (!response.ok) {
+          throw new Error(
+            "WMS request failed: " +
+            response.status
+          );
+        }
+
+        return response.text();
+
+      })
+
+      .then(text => {
+
+        let data;
+
+        try {
+          data = JSON.parse(text);
+        } catch (error) {
+
+          throw new Error(
+            "The WMS did not return JSON."
+          );
+
+        }
+
+
+        // ------------------------------------------------------------
+        // Try to extract a value from GeoJSON properties.
+        // ------------------------------------------------------------
+
+        let value = null;
+
+        if (
+          data.features &&
+          data.features.length > 0
+        ) {
+
+          const properties =
+            data.features[0].properties || {};
+
+          const keys =
+            Object.keys(properties);
+
+          if (keys.length > 0) {
+
+            value =
+              properties[keys[0]];
+
+          }
+
+        }
+
+
+        if (
+          value === null ||
+          value === undefined
+        ) {
+
+          popup.setContent(`
+            <div class="soilgrids-popup-title">
+              ${activeLayerName}
+            </div>
+
+            <div>
+              No soil value was returned for
+              this location.
+            </div>
+          `);
+
+          return;
+
+        }
+
+
+        popup.setContent(`
+
+          <div class="soilgrids-popup-title">
+            ${activeLayerName}
+          </div>
+
+          <div class="soilgrids-value">
+            ${value}
+            ${layerConfig.unit}
+          </div>
+
+          <div style="
+            margin-top:5px;
+            color:#666;
+            font-size:0.8rem;
+          ">
+            ${event.latlng.lat.toFixed(4)}°,
+            ${event.latlng.lng.toFixed(4)}°
+          </div>
+
+        `);
+
+      })
+
+      .catch(error => {
+
+        console.error(
+          "SoilGrids GetFeatureInfo:",
+          error
+        );
+
+        popup.setContent(`
+
+          <div class="soilgrids-popup-title">
+            ${activeLayerName}
+          </div>
+
+          <div>
+            Unable to retrieve the soil value.
+          </div>
+
+          <div style="
+            margin-top:5px;
+            color:#777;
+            font-size:0.8rem;
+          ">
+            The WMS may not support
+            GetFeatureInfo for this layer.
+          </div>
+
+        `);
+
+      });
+
+  });
+
+
+  // ================================================================
+  // Small information control
+  // ================================================================
+
+  const info = L.control({
+    position: "topright"
+  });
+
+  info.onAdd = function () {
+
+    const div =
+      L.DomUtil.create(
+        "div",
+        "soilgrids-info"
+      );
+
+    div.innerHTML =
+      "Click the map to inspect soil values";
+
+    return div;
+
+  };
+
+  info.addTo(map);
+
+
+})();
+</script>
+

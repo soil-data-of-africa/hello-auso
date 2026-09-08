@@ -25,7 +25,7 @@ website:
       - text: Who it's for
         file: index.md#who-is-auso-for
       - text: Dashboard
-        file: dashboard.md
+        file: dashboard.qmd
       - text: ASDAC Database
         file: asdac.md
       - text: Resources

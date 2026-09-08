@@ -6,13 +6,29 @@
 }
 
 
+.navbar {
+    background-color: white;
+}
+.navbar a {
+    color: black
+}
+
 .hero-box {
   width: 100%;
   box-sizing: border-box;
   padding: 4rem 3rem;
   margin: 2rem 0;
   border-radius: 24px;
-  background: linear-gradient(135deg, #f5f7ff, #eef2ff);
+
+  background: linear-gradient(
+    135deg,
+    #173f2a 0%,
+    #285c3b 35%,
+    #657342 65%,
+    #76543b 100%
+  );
+
+  color: #fff;
   text-align: center;
 }
 

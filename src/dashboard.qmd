@@ -1,0 +1,7 @@
+---
+title: AUSO Dashboard
+---
+
+The dashboard is under development. To give you an indication of its potential content, we show soil property disctribution predictions from the AFSIS project
+
+{{< include wms-map.html >}}
