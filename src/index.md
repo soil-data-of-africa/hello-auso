@@ -1,14 +1,8 @@
 ---
-title: Home
+title: Welcome
 sidebar: false
 ---
 
-
-::: {.hero-box .bg-dark} 
-
-# Welcome
-
-:::
 
 ::: {.hero-box} 
 
@@ -29,10 +23,7 @@ The African Union Soil Observatory is an initiative of the African Union, hosted
 
 # Who is AUSO for
 
-Describe who this is for, include simple user buckets that a visiting user can identify with.
-Each button will direct a user to a different part of the dashboard, depending on what they would be most likely to do.
-For example, a policy maker or advisor will likely want quick summaries and simple data visualisations,
-where researchers will likely want more detailed information and databases.
+AUSO aims to support a wide range of audiences. Follow a link below as most appropriate audience to have an optimal experience. 
 
 <div class="hero-actions"> 
 <a href="policy.md" class="hero-btn secondary">Government, Policy, & <br/>Policy Advisors</a> 
@@ -46,7 +37,9 @@ where researchers will likely want more detailed information and databases.
 
 # African Soil Data Center (ASDAC)
 
-ASDAC brings together national soil institutes, universities and research institutes to optimize the soil data infrastructure in Africa.
+AUSO is powered by the African Soil Data Center hosted by FARA. 
+ASDAC brings together national soil institutes, universities and 
+research institutes to optimize the soil data infrastructure in Africa.
 
 <div class="hero-actions"> 
 <a href="asdac/index.md" class="hero-btn secondary">Open ASDAC</a></div>
@@ -77,8 +70,6 @@ on dashboard or data
 # Our Partners & Collaborators
 
 A section to celebrate and highlight ministries, institutions, universities, etc. who have been involved in the making of AUSO
-
-
 
 
 :::

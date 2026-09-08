@@ -6,7 +6,7 @@
     color: black
 }
 
-.navbar-brand {
+.navbar-title {
   display: none !important;
 }
 
@@ -19,6 +19,29 @@
 
 .navbar a.active, .navbar a:active {
     font-weight: bold
+}
+
+.quarto-title h1 {
+  font-size: clamp(6rem, 5vw, 6rem);
+}
+.quarto-title {
+
+  width: 100%;
+  box-sizing: border-box;
+  padding: 4rem 3rem;
+  margin: 2rem 0;
+  border-radius: 24px;
+
+  background: linear-gradient(
+    135deg,
+    #76543b 0%,
+    #657342 35%,
+    #285c3b 65%,
+    #173f2a 100%
+  );
+
+  color: #fff;
+  text-align: center;
 }
 
 .hero-box {

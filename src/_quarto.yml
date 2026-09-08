@@ -9,12 +9,10 @@ project:
 website:
   repo-url: https://github.com/soil-data-of-africa
   repo-subdir: src
-  repo-actions:
-    - issue
   page-footer:
     left:
-    - text: AUSO
-  title: "AUSO"
+    - text: This initiative has received funding from the EU Horizon Research and Innovation Programme under Grant Agreement <a href='https://doi.org/10.3030/101218840'>101218840</a>. 
+  title: "African Union Soil Observatory"
   search: true
   navbar:
     pinned: true
