@@ -76,7 +76,7 @@ The partners below form the core development group of AUSO.
 ## Members
 
 - Ghana; <a href="https://www.csir.org.gh/">COUNCIL FOR SCIENTIFIC AND INDUSTRIAL RESEARCH</a> (CSIR)
-- Senegal <a href="https://web.archive.org/web/20220322013550/http://www.inp-senegal.com/">INSTITUT NATIONAL DE PEDOLOGIE</a> (INP)
+- Senegal; <a href="https://web.archive.org/web/20220322013550/http://www.inp-senegal.com/">INSTITUT NATIONAL DE PEDOLOGIE</a> (INP)
 - Cameroon;  <a href="https://irad.cm/">INSTITUT DE RECHERCHE AGRICOLE POUR LE DEVELOPPEMENT</a> (IRAD)
 - Central African Republic;  <a href="https://madr-gouv.com/service/institut-centrafricain-de-la-recherche-agronomique-icra/">INSTITUT CENTRAFRICAIN DE RECHERCHE AGRONOMIQUE</a> (ICRA)
 - Ethiopia; <a href="https://www.moa.gov.et/">MINISTRY OF AGRICULTURE</a> (MoA)
@@ -84,7 +84,7 @@ The partners below form the core development group of AUSO.
 - Malawi;  <a href="https://agriculture.gov.mw/landresource">Ministry of Agriculture</a> (DLRC)
 - Zambia;  <a href="https://www.zari.gov.zm/">MINISTRY OF AGRICULTURE</a> (ZARI)
 - Zimbabwe; <a href="https://www.drss.gov.zw/">CHEMISTRY AND SOIL RESEARCH INSTITUTE</a> (CSRI)
-- Cabo Verde, <a href="https://maa.gov.cv/index.php/maa/organograma/institutos-e-agencias/inida">INSTITUTO NACIONAL DE INVESTIGACAO E DESENVOLVIMENTO AGRARIO</a> (INIDA)
+- Cabo Verde; <a href="https://maa.gov.cv/index.php/maa/organograma/institutos-e-agencias/inida">INSTITUTO NACIONAL DE INVESTIGACAO E DESENVOLVIMENTO AGRARIO</a> (INIDA)
 - Madagascar; <a href="https://www.fofifa.mg/">CENTRE NATIONAL DE LA RECHERCHE APPLIQUEE AU DEVELOPPEMENT RURAL</a> (FOFIFA) 
 
 :::
