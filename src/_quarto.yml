@@ -24,7 +24,7 @@ website:
         file: index.md#who-is-auso-for
       - text: Dashboard
         file: dashboard.qmd
-      - text: ASDAC Database
+      - text: ASDAC
         file: asdac/index.md
       - text: Resources
         file: resources.md
@@ -50,6 +50,10 @@ website:
         file: asdac/tech-manuals.md
       - text: SIS software
         file: asdac/sis-software.md
+      - text: Community
+        file: asdac/community.md
+      - text: FAQ
+        file: asdac/faq.md
 format:
   html:
     page-layout: full

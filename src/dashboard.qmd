@@ -7,3 +7,28 @@ sidebar: false
 The dashboard is under development. To give you an indication of its potential content, we show soil property disctribution predictions from the AFSIS project
 
 {{< include wms-map.html >}}
+
+## Sustainable management practices
+
+AUSO aims to link soil health to management practices. The WOCAT database is relevant when 
+
+Understand which sustainable management practices are available for your country:
+
+<form method="get" action="https://wocat.net/en/database/list/">
+
+<input type="hidden" value="technology" name="type">
+
+<select name="country">
+<option value="cv">Cabo Verde</option>
+<option value="cm">Cameroon</option>
+<option value="cf">Central African Republic</option>
+<option value="gh">Ghana</option>
+<option value="et">Ethiopia</option>
+<option value="ke">Kenya</option>
+<option value="mg">Madagascar</option>
+<option value="sn">Senegal</option>
+<option value="zm">Zambia</option>
+<option value="zw">Zimbabwe</option>
+</select>
+<input type=submit>
+</form>

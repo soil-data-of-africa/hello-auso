@@ -54,13 +54,12 @@ Encourage users to get involved with AUSO - get involved with the data collectio
 contribution, provide feedback, or simply register interest.
 
 <div class="hero-actions">
-<a href="asdac/index.md" class="hero-btn secondary">
+<a href="asdac/index.md#contributing-to-asdac" class="hero-btn secondary">
 Contribute data to AUSO
 </a>
 
-<a href="asdac/index.md" class="hero-btn secondary">
-Provide feedback
-on dashboard or data
+<a href="asdac/community.md" class="hero-btn secondary">
+Provide feedback on dashboard or data
 </a></div>
 
 :::
