@@ -16,7 +16,7 @@ website:
   search: true
   navbar:
     pinned: true
-    logo: ./img/logo.png
+    logo: ./img/logo-bw.png
     right:
       - text: About AUSO
         file: index.md#about-auso
