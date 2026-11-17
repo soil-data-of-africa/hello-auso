@@ -61,8 +61,10 @@ website:
           file: asdac/resources/sis-software.md
       - text: Community
         file: asdac/community.md
-      - text: FAQ
-        file: asdac/faq.md
+      - text: Help
+        file: asdac/help.md
+      - text: Login
+        file: #
 format:
   html:
     page-layout: full

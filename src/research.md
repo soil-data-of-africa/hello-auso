@@ -3,6 +3,8 @@ title: Research
 sidebar: false
 ---
 
+# Research
+
 As a soil researcher you are likely interested in the Soil Health Status and Soil threats at continental or regional level. However you may also be in a position that your organisation holds soil observation data which would contribute to AUSO, or perform field or lab work to obtain such data. Or you can be interested to extract some data from the platform to use in your own research.
 
 ## Soil Health Dashboard

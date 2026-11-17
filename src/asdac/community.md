@@ -11,7 +11,7 @@ AUSO facilitates a discussion forum where discussion can take place n a wide var
 
 Discussion on how the AUSO platform itself should evolve, the [AUSO roadmap](https://github.com/soil-data-of-africa/hello-auso/discussions/categories/auso-roadmap).
 
-A [Q&A section](https://github.com/soil-data-of-africa/hello-auso/discussions/categories/q-a), where you can post questions on soil and land management. Please check the [frequently asked questions](faq.md) first, to see if an answer to your questions is already provided.
+A [Q&A section](https://github.com/soil-data-of-africa/hello-auso/discussions/categories/q-a), where you can post questions on soil and land management. Please check the [frequently asked questions](help.md) first, to see if an answer to your questions is already provided.
 
 Discussion on (adoption of) [soil standards](https://github.com/soil-data-of-africa/hello-auso/discussions/categories/soil-standards) in Africa.
 

@@ -2,7 +2,9 @@
 title: Resources
 ---
 
-ASDAC resources are clustered in 6 themes
+# Resources
+
+AUSO resources are clustered in 6 themes:
 
 :::: {.columns}
 
