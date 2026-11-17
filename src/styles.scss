@@ -176,3 +176,28 @@ figcaption {
 section h1 {
  padding-top: 20px;
 }
+
+.quarto-sidebar {
+  background-color: #e8ebdf !important;
+  width: 96px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.sidebar-item {
+  text-align: center;
+}
+.sidebar-item a { 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+ 
+}
+
+.sidebar-item .active {
+    background-color: #1b301e;
+    span {
+      color:white;
+    }
+  }

@@ -142,14 +142,3 @@ The partners below form the core development group of AUSO.
 
 [About research partners](partners.md){.hero-btn}
 
-
-
-
-<style>
-body .page-columns {
-display: block;
-grid-template-columns: none;
-grid-template-rows: none;
-gap: initial;
-}
-</style>

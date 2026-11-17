@@ -1,6 +1,6 @@
 ---
 title: AUSO Dashboard
-sidebar: false
+sidebar: true
 ---
 
 

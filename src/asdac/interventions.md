@@ -1,6 +1,6 @@
 ---
 title: Interventions
-sidebar: false
+sidebar: true
 ---
 
 ## Interventions

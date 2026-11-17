@@ -1,6 +1,6 @@
 ---
 title: Prioritize
-sidebar: false
+sidebar: true
 ---
 
 ## Prioritize
