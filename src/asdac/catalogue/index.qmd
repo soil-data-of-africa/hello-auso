@@ -1,0 +1,18 @@
+---
+title: Data catalogue
+listing:
+  type: table
+  sort: "date desc"
+  page-size: 20
+  fields: 
+    - date
+    - title
+    - author
+  contents:
+    - "./*.qmd"
+---
+
+# Data catalogue
+
+The catalogue contains datasets produced by or relevant to AUSO.
+

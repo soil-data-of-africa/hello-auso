@@ -1,0 +1,29 @@
+---
+title: 'Copernicus Global Land Service: Land Cover 100m: collection 3: epoch 2019:
+  Globe'
+author:
+- Buchhorn, Marcel
+- Smets, Bruno
+- Bertels, Luc
+- Roo, Bert De
+- Lesiv, Myroslava
+- Tsendbazar, Nandin-Erdene
+- Herold, Martin
+- Fritz, Steffen
+date: '2020-09-08'
+keywords:
+- Land cover, land use, globe, earth, remote sensing, satellite, copernicus, PROBA-V
+doi: 10.5281/ZENODO.3939050
+resource: https://doi.org/10.5281/ZENODO.3939050
+type: Dataset
+publisher: Zenodo
+rights: cc-by-4.0
+---
+
+## Abstract
+
+Near real time epoch 2019 from the Collection 3 of annual, global 100m land cover maps. Other available epochs: 2015 2016 2017 2018 Produced by the global component of the Copernicus Land Service, derived from PROBA-V satellite observations and ancillary datasets. The maps include a main discrete classification with 23 classes aligned with UN-FAO's Land Cover Classification System, a set of versatile cover fractions: percentage (%) of ground cover for the 10 main classes a forest type layer quality layers on input data density and on the confidence of the detected land cover change Click here to view the maps More information about the land cover maps Product User Manual
+
+---
+
+**Read more:** [https://doi.org/10.5281/ZENODO.3939050](https://doi.org/10.5281/ZENODO.3939050)

@@ -1,0 +1,23 @@
+---
+title: Farming Systems and Food Security in Africa
+author:
+- Dixon, J.
+- Garrity, D. P.
+- Boffa, J.-M.
+- Williams, T. O.
+- Amede, T.
+- Auricht, C.
+- Lott, R.
+- Mburathi, G. (Eds.).
+date: '2019'
+doi: 10.4324/9781315658841
+resource: https://doi.org/10.4324/9781315658841
+---
+
+## Abstract
+
+No abstract available.
+
+---
+
+**Read more:** [https://doi.org/10.4324/9781315658841](https://doi.org/10.4324/9781315658841)

@@ -1,0 +1,19 @@
+---
+title: Providing quality-assessed and standardised soil data to support global mapping
+  and modelling (WoSIS snapshot 2023)
+author:
+- Batjes, N. H.
+- Calisto, L.
+- de Sousa, L. M.
+date: '2024'
+doi: 10.5194/essd-2024-14
+resource: https://doi.org/10.5194/essd-2024-14
+---
+
+## Abstract
+
+No abstract available.
+
+---
+
+**Read more:** [https://doi.org/10.5194/essd-2024-14](https://doi.org/10.5194/essd-2024-14)

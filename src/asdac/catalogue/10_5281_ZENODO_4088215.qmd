@@ -1,0 +1,30 @@
+---
+title: 'iSDAsoil: soil extractable Iron for Africa predicted at 30 m resolution at
+  0-20 and 20-50 cm depths'
+author:
+- Hengl, Tomislav
+- Miller, Matt
+- Križan, Josip
+- Kilibarda, Milan
+- Acquah, Gifty
+- Sila, Andrew M.
+date: '2020-10-14'
+keywords:
+- soil
+- Africa
+- Iron
+- iSDA
+doi: 10.5281/ZENODO.4088215
+resource: https://doi.org/10.5281/ZENODO.4088215
+type: Dataset
+publisher: Zenodo
+rights: cc-by-4.0
+---
+
+## Abstract
+
+iSDAsoil dataset soil extractable Iron (Fe) log-transformed predicted at 30 m resolution for 0–20 and 20–50 cm depth intervals. Data has been projected in WGS84 coordinate system and compiled as COG. Predictions have been generated using multi-scale Ensemble Machine Learning with 250 m (MODIS, PROBA-V, climatic variables and similar) and 30 m (DTM derivatives, Landsat, Sentinel-2 and similar) resolution covariates. For model training we use a pan-African compilations of soil samples and profiles (iSDA points, AfSPDB, and other national and regional soil datasets). Cite as: Hengl, T., Miller, M.A.E., Križan, J. <em>et al.</em> African soil properties and nutrients mapped at 30 m spatial resolution using two-scale ensemble machine learning. <em>Sci Rep</em> <strong>11, </strong>6130 (2021). https://doi.org/10.1038/s41598-021-85639-y To open the maps in QGIS and/or directly compute with them, please use the <strong>Cloud-Optimized GeoTIFF version</strong>. Layer description: sol_log.fe_mehlich3_m_30m_*..*cm_2001..2017_v0.13_wgs84.tif = predicted soil extractable Iron mean value, sol_log.fe_mehlich3_md_30m_*..*cm_2001..2017_v0.13_wgs84.tif = predicted soil extractable Iron model (prediction) errors, Model errors were derived using bootstrapping: md is derived as standard deviation of individual learners from 5-fold cross-validation (using spatial blocking). The model 5-fold cross-validation (mlr::makeStackedLearner) for this variable indicates: <pre><code>Variable: log.fe_mehlich3 R-square: 0.817 Fitted values sd: 0.497 RMSE: 0.235 Random forest model: Call: stats::lm(formula = f, data = d) Residuals: Min 1Q Median 3Q Max -4.0165 -0.1312 -0.0082 0.1238 2.5077 Coefficients: Estimate Std. Error t value Pr(&gt;|t|) (Intercept) 3.913522 1.869721 2.093 0.036344 * regr.ranger 0.856893 0.007912 108.306 &lt; 2e-16 *** regr.xgboost 0.027856 0.007738 3.600 0.000318 *** regr.cubist 0.146095 0.007230 20.207 &lt; 2e-16 *** regr.nnet -0.879348 0.402810 -2.183 0.029037 * regr.cvglmnet 0.005610 0.004470 1.255 0.209415 --- Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 Residual standard error: 0.2349 on 57526 degrees of freedom Multiple R-squared: 0.8173, Adjusted R-squared: 0.8173 F-statistic: 5.148e+04 on 5 and 57526 DF, p-value: &lt; 2.2e-16</code></pre> To back-transform values (y) to ppm use the following formula: <pre><code>ppm = expm1( y / 10 )</code></pre> To submit an issue or request support please visit <strong>https://isda-africa.com/isdasoil</strong>
+
+---
+
+**Read more:** [https://doi.org/10.5281/ZENODO.4088215](https://doi.org/10.5281/ZENODO.4088215)

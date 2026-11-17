@@ -1,0 +1,17 @@
+---
+title: Farming Systems of Africa (, Ed
+author:
+- Research Institute (IFPRI), I. F. P.
+date: '2014'
+doi: 10.2499/9780896298460_06
+resource: https://doi.org/10.2499/9780896298460_06
+citation_source: ). International Food Policy Research Institute.
+---
+
+## Abstract
+
+No abstract available.
+
+---
+
+**Read more:** [https://doi.org/10.2499/9780896298460_06](https://doi.org/10.2499/9780896298460_06)

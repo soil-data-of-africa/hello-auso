@@ -1,0 +1,21 @@
+---
+title: African soil properties and nutrients mapped at 30Â m spatial resolution using
+  two-scale ensemble machine learning
+author:
+- "Hengl, T., Miller, M. A. E., KriÅ¾an, J., Shepherd, K. D., Sila, A., Kilibarda,\
+  \ M., AntonijeviÄ\x87, O., GluÅ¡ica, L., Dobermann, A., Haefele, S. M., McGrath,\
+  \ S. P., Acquah, G. E., Collinson, J., Parente, L., Sheykhmousa, M., Saito, K.,\
+  \ Johnson, J.-M., Chamberlin, J., Silatsa, F. B. T., et al."
+date: '2021'
+doi: 10.1038/s41598-021-85639-y
+resource: https://doi.org/10.1038/s41598-021-85639-y
+citation_source: Scientific Reports, 11(1).
+---
+
+## Abstract
+
+No abstract available.
+
+---
+
+**Read more:** [https://doi.org/10.1038/s41598-021-85639-y](https://doi.org/10.1038/s41598-021-85639-y)

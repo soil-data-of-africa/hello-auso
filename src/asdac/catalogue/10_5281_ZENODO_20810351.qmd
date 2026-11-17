@@ -1,0 +1,38 @@
+---
+title: Soils4Africa - analytical data (spectral predictions)
+author:
+- Pittaki-Chrysodonta, Zampela
+- Weullow, Elvis
+- Karari, Valentine
+- Ateku, Dickens
+- Winowiecki, Leigh Ann
+- Sosibo, Nondumiso Zanele
+- Kempen, Bas
+date: '2026-09-24'
+keywords:
+- Soil
+- Soil water
+- Soil fertility
+- Africa
+- Agriculture
+- Organic carbon
+doi: 10.5281/ZENODO.20810351
+resource: https://doi.org/10.5281/ZENODO.20810351
+type: Dataset
+publisher: Zenodo
+rights: cc-by-4.0
+---
+
+## Abstract
+
+The Soils4Africa project aimed to collect and analyze soil samples from 14,000 locations across agricultural lands in Africa. Samples were collected from two depth intervals: 0-20 cm and 20-50 cm.
+
+The Soils4Africa samples were scanned using mid-infrared (MIR) spectroscopy at the ARC, following standard operating procedures developed by the World Agroforestry Centre (ICRAF). A subset of the samples was also analyzed at the ARC using conventional wet chemistry methods. The spectral measurements were used by ICRAF to generate soil property predictions based on its global spectral library. The ICRAF global calibration model was retrained using wet chemistry data from the Soils4Africa project.
+
+This dataset contains estimates of 19 soil properties derived from MIR spectra for more than 11,000 soil samples collected from over 6,100 locations across 21 countries across Africa.
+
+IMPORTANT: The analysis and quality control of the soil samples are still ongoing. Therefore, the dataset should be considered provisional. Updated versions, including additional samples and soil properties, are expected to be released in the future.
+
+---
+
+**Read more:** [https://doi.org/10.5281/ZENODO.20810351](https://doi.org/10.5281/ZENODO.20810351)

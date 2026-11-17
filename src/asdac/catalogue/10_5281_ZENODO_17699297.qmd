@@ -1,0 +1,53 @@
+---
+title: Soils4Africa - Field data from a continental soil survey campaign
+author:
+- Mesele, Samuel
+- Huising, Jeroen
+- Csorba, Adam
+- Ouessar, Mohamed
+- KATAR, Achraf
+- Okoti, Michael
+- Waruru, Bernard
+- Rozanov, Andrei
+- Yameogo, Poulouma Louis
+- TRAORE, MAMADOU
+- Steverink-Mosugu, Mary
+- Micheli, Erika
+- Kempen, Bas
+date: '2026-06-26'
+keywords:
+- Soil
+- Africa
+- Sampling
+- Land cover
+- Erosion
+- Grazing
+- Land use
+doi: 10.5281/ZENODO.17699297
+resource: https://doi.org/10.5281/ZENODO.17699297
+type: Dataset
+publisher: Zenodo
+rights: cc-by-4.0
+---
+
+## Abstract
+
+The EU-funded Soils4Africa project's aimed to provide an open-access soil information system with a set of key indicators and underpinning data, accompanied by a methodology for repeated soil monitoring across the African continent. 
+
+
+
+This release contains the field data which has been collected by a large number of field surveyors from over 15,000 locations across 33 countries in Africa, through a mobile application. Description of the sampling locations largely followed FAO's Guidelines for Soil Description.
+
+
+The 's4a_field_data' file contains the data. The 'tableschema' file has description of the columns, following the tableschema conventions.
+
+
+Read more about the project at <https://cordis.europa.eu/project/id/862900/results>
+
+ 
+
+IMPORTANT: quality control of the data is still ongoing. Updates and new versions of the dataset are expected in the future.
+
+---
+
+**Read more:** [https://doi.org/10.5281/ZENODO.17699297](https://doi.org/10.5281/ZENODO.17699297)

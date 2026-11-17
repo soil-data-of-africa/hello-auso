@@ -1,0 +1,30 @@
+---
+title: Soils4Africa - Pesticide Dataset
+author:
+- Silva, Vera
+- Yang, Xiaomei
+- Osman, Rima
+- Tourinho, Paula
+- Gai, Lingtong
+- Sosibo, Nondumiso
+- Csorba, Adam
+- Mesele, Samuel
+- Kempen, Bas
+- Ritsema, Coen J.
+date: '2025-12-01'
+doi: 10.5281/ZENODO.17779527
+resource: https://doi.org/10.5281/ZENODO.17779527
+type: Dataset
+publisher: Zenodo
+rights: cc-by-4.0
+---
+
+## Abstract
+
+This dataset contains data on the occurrence of pesticide residues in the topsoil of  272 locations in diverse farming systems across Africa's agricultural land. The soil samples were collected between October 2022 and September 2024 in 13 countries. Samples were analyzed for presence of 153 pesticide residues. 
+
+The most frequently detected compounds were dinoterb, DDE-p,p’, chlorpyrifos, metolachlor, atrazine-hydroxy-2, AMPA, and imidacloprid, all substances of  environmental, ecotoxicological, or toxicological concern. Individual pesticide concentrations ranged from <0.001 to 4.896 mg kg⁻¹, and total pesticide loads reached 6.998 mg kg⁻¹. At least 25% of sampling locations are expected to present high ecological risk (RQ ≥ 1), though data gaps for some substances limit assessment accuracy. Eleven pesticides exceeded risk thresholds in at least one sample, with chlorpyrifos driving most exceedances.
+
+---
+
+**Read more:** [https://doi.org/10.5281/ZENODO.17779527](https://doi.org/10.5281/ZENODO.17779527)

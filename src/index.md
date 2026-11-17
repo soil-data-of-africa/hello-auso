@@ -145,3 +145,11 @@ The partners below form the core development group of AUSO.
 
 
 
+<style>
+body .page-columns {
+display: block;
+grid-template-columns: none;
+grid-template-rows: none;
+gap: initial;
+}
+</style>

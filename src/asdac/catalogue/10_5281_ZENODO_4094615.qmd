@@ -1,0 +1,30 @@
+---
+title: 'iSDAsoil: soil texture class (USDA system) for Africa predicted at 30 m resolution
+  at 0-20 and 20-50 cm depths'
+author:
+- Hengl, Tomislav
+- Miller, Matt
+- Križan, Josip
+- Kilibarda, Milan
+- Acquah, Gifty
+- Sila, Andrew M.
+date: '2020-10-16'
+keywords:
+- soil
+- Africa
+- texture
+- iSDA
+doi: 10.5281/ZENODO.4094615
+resource: https://doi.org/10.5281/ZENODO.4094615
+type: Dataset
+publisher: Zenodo
+rights: cc-by-4.0
+---
+
+## Abstract
+
+iSDAsoil dataset soil texture classes derived from sand, silt and clay fractions at 30 m resolution for 0–20 and 20–50 cm depth intervals. Data has been projected in WGS84 coordinate system and compiled as COG. Predictions have been generated using multi-scale Ensemble Machine Learning with 250 m (MODIS, PROBA-V, climatic variables and similar) and 30 m (DTM derivatives, Landsat, Sentinel-2 and similar) resolution covariates. For model training we use a pan-African compilations of soil samples and profiles (iSDA points, AfSPDB, and other national and regional soil datasets). Cite as: Hengl, T., Miller, M.A.E., Križan, J. <em>et al.</em> African soil properties and nutrients mapped at 30 m spatial resolution using two-scale ensemble machine learning. <em>Sci Rep</em> <strong>11, </strong>6130 (2021). https://doi.org/10.1038/s41598-021-85639-y To open the maps in QGIS and/or directly compute with them, please use the <strong>Cloud-Optimized GeoTIFF version</strong>. Layer description: sol_texture.class_c_30m_*..*cm_2001..2017_v0.13_wgs84.tif = soil texture class, Classes: <pre><code>Code,Name,Value,Color Cl,clay,1,#d5c36b SiCl,silty clay,2,#b96947 SaCl,sandy clay,3,#9d3706 ClLo,clay loam,4,#ae868f SiClLo,silty clay loam,5,#f86714 SaClLo,sandy clay loam,6,#46d143 Lo,loam,7,#368f20 SiLo,silt loam,8,#3e5a14 SaLo,sandy loam,9,#ffd557 Si,silt,10,#fff72e LoSa,loamy sand,11,#ff5a9d Sa,sand,12,#ff005b NODATA,,255,#ffffff </code></pre> To submit an issue or request support please visit <strong>https://isda-africa.com/isdasoil</strong>
+
+---
+
+**Read more:** [https://doi.org/10.5281/ZENODO.4094615](https://doi.org/10.5281/ZENODO.4094615)

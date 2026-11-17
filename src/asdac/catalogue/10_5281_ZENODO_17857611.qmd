@@ -1,0 +1,24 @@
+---
+title: Map of Agricultural Land of Continental Africa (Annex)
+author:
+- Huising, Jeroen
+- Buyengo, Julius
+- Kempen, Bas
+- Wangui Mwangi, Eunice
+date: '2021-09-28'
+doi: 10.5281/ZENODO.17857611
+resource: https://doi.org/10.5281/ZENODO.17857611
+type: Report
+publisher: Zenodo
+rights: cc-by-4.0
+---
+
+## Abstract
+
+The Soils4Africa project produced a Map of Agricultural Land (MAL) for Africa based on Copernicus Global Land Cover data. The methodology used to generate the map was described in the Soils4Africa report D4.1: Map of Agricultural Land. Following publication of the report, several shortcomings in the MAL were identified, prompting a revision of the dataset. This document serves as an annex to the original report and describes the updated classification rules applied in the revised version of the MAL.
+
+ 
+
+---
+
+**Read more:** [https://doi.org/10.5281/ZENODO.17857611](https://doi.org/10.5281/ZENODO.17857611)

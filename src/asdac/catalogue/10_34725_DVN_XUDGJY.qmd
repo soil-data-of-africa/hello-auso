@@ -1,0 +1,35 @@
+---
+title: 'Soil Spectra and Wet Chemistry Measurements from ICRAF Soil-Plant Spectral
+  Diagnostics Laboratory and Rothamsted Research: Africa Soil Information Service
+  (AfSIS) Phase 2 Project Data 2014-2018 - TanSIS'
+author:
+- Meliyo, Joel
+- Weullow, Elvis
+- Dickens, Ateku
+- Karari, Valentine
+- Markus, Walsh G.
+- McGrath, Steve P.
+- Acquah, Gifty E.
+- Haefele, Stephan M.
+- Gregory, Wendy
+- Durenkamp, Mark
+- Skilton, Ruth
+- Brookman, Melanie
+- Garwood, Chloe
+- Dobermann, Achim
+- Sila, Andrew
+- Shepherd, Keith
+date: '2021'
+doi: 10.34725/DVN/XUDGJY
+resource: https://doi.org/10.34725/DVN/XUDGJY
+type: Dataset
+publisher: World Agroforestry - Research Data Repository
+---
+
+## Abstract
+
+AfSIS Phase 2 was a collaborative project funded by the Bill and Melinda Gates Foundation (BMGF). Partners included, Columbia Global Center Africa (CGCA), Earth Institute (EI), International Soil Reference and Information Centre (ISRIC), Tanzania Agricultural Research Institute (TARI), Rothamsted Research (RRes) and World Agroforestry (ICRAF). The project aimed to assist national programs in four African countries (Ethiopia, Ghana, Nigeria and Tanzania) to transition to modern agricultural research and data collection practices that were expected to result in faster agricultural development cycles. In Tanzania, a country wide sampling targeting mainly the croplands was conducted. A total of 29,300 soil samples were collected at both 0-20cm, 20-50cm soil depths. All the samples collected were scanned using the four ZnSe Alpha I spectrometers at Selian Research Lab, Arusha, Tanzania. A subset of 461 soil samples was shipped to ICRAF and scanned on two spectrometers (HTS-xt and ZnSe Alpha I). The same 461 soil samples were also sent to RRes for wet chemistry analysis. The spectra data scanned at Selian (using ZnSe Alpha I) and that scanned at ICRAF Nairobi (using HTS-xt Tensor 27) and wetchem data (analyzed at RRes) are available on Dataverse here.
+
+---
+
+**Read more:** [https://doi.org/10.34725/DVN/XUDGJY](https://doi.org/10.34725/DVN/XUDGJY)

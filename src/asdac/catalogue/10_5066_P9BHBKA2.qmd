@@ -1,0 +1,20 @@
+---
+title: Africa Terrestrial Ecosystems
+author:
+- Sayre, Roger
+date: '2013'
+keywords:
+- Ecology, Geography
+doi: 10.5066/P9BHBKA2
+resource: https://doi.org/10.5066/P9BHBKA2
+type: Dataset
+publisher: U.S. Geological Survey
+---
+
+## Abstract
+
+Africa terrestrial ecosystems were modeled using a biophysical stratification approach based on mapping the major structural components of ecosystems. New 90 meter base resolution continental datasets were developed for several key physical environment datalayers including coastlines, land surface forms, surficial lithology, and bioclimates. These unique physical components, considered as the fundamental building blocks of ecosystems, were reviewed by regional vegetation and landscape ecology experts and used in a classification and regression tree (CART) inductive model to map intermediate scale Africa terrestrial ecosystems. In the final dataset a total of 126 terrestrial ecosystem types were mapped, each with multiple, repeating occurrences on the landscape.
+
+---
+
+**Read more:** [https://doi.org/10.5066/P9BHBKA2](https://doi.org/10.5066/P9BHBKA2)

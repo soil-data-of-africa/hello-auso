@@ -1,0 +1,21 @@
+---
+title: Soils4Africa Sampling Design.
+author:
+- Kempen, Bas
+- Moreira de Sousa, Luís
+- Brus, Dick
+date: '2021-05-31'
+doi: 10.5281/ZENODO.17857466
+resource: https://doi.org/10.5281/ZENODO.17857466
+type: Report
+publisher: Zenodo
+rights: cc-by-4.0
+---
+
+## Abstract
+
+The Soils4Africa project aimed to collect soil samples from 20,000 locations across Africa’s agricultural lands. To support this effort, a continent-wide sampling scheme was developed to identify sampling locations using a probability-based sampling approach. This report describes the design and implementation of that sampling scheme. The soil data derived from the collected samples formed the foundation of the continental-scale soil information system (SIS) developed by the Soils4Africa project. The SIS is currently available at: https://africasis.isric.org/.
+
+---
+
+**Read more:** [https://doi.org/10.5281/ZENODO.17857466](https://doi.org/10.5281/ZENODO.17857466)

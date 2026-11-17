@@ -1,0 +1,30 @@
+---
+title: 'iSDAsoil: soil clay content (USDA system) for Africa predicted at 30 m resolution
+  at 0-20 and 20-50 cm depths'
+author:
+- Hengl, Tomislav
+- Miller, Matt
+- Križan, Josip
+- Kilibarda, Milan
+- Acquah, Gifty
+- Sila, Andrew M.
+date: '2020-10-13'
+keywords:
+- Africa
+- soil
+- clay
+- iSDA
+doi: 10.5281/ZENODO.4085159
+resource: https://doi.org/10.5281/ZENODO.4085159
+type: Dataset
+publisher: Zenodo
+rights: cc-by-4.0
+---
+
+## Abstract
+
+iSDAsoil dataset soil clay content (USDA system) in % predicted at 30 m resolution for 0–20 and 20–50 cm depth intervals. Data has been projected in WGS84 coordinate system and compiled as COG. Predictions have been generated using multi-scale Ensemble Machine Learning with 250 m (MODIS, PROBA-V, climatic variables and similar) and 30 m (DTM derivatives, Landsat, Sentinel-2 and similar) resolution covariates. For model training we use a pan-African compilations of soil samples and profiles (iSDA points, AfSPDB, LandPKS, and other national and regional soil datasets). Cite as: Hengl, T., Miller, M.A.E., Križan, J. <em>et al.</em> African soil properties and nutrients mapped at 30 m spatial resolution using two-scale ensemble machine learning. <em>Sci Rep</em> <strong>11, </strong>6130 (2021). https://doi.org/10.1038/s41598-021-85639-y To open the maps in QGIS and/or directly compute with them, please use the <strong>Cloud-Optimized GeoTIFF version</strong>. Layer description: sol_clay_tot_psa_m_30m_*..*cm_2001..2017_v0.13_wgs84.tif = predicted soil clay content mean value, sol_clay_tot_psa_md_30m_*..*cm_2001..2017_v0.13_wgs84.tif = predicted soil clay content (prediction) errors, Model errors were derived using bootstrapping: md is derived as standard deviation of individual learners from 5-fold cross-validation (using spatial blocking). The model 5-fold cross-validation (mlr::makeStackedLearner) for this variable indicates: <pre><code>Variable: clay_tot_psa R-square: 0.746 Fitted values sd: 16.5 RMSE: 9.63 Random forest model: Call: stats::lm(formula = f, data = d) Residuals: Min 1Q Median 3Q Max -75.803 -4.512 -0.178 3.748 82.146 Coefficients: Estimate Std. Error t value Pr(&gt;|t|) (Intercept) 4.494652 8.914671 0.504 0.61413 regr.ranger 1.076957 0.003611 298.210 &lt; 2e-16 *** regr.xgboost -0.012617 0.004678 -2.697 0.00699 ** regr.cubist 0.030730 0.003930 7.820 5.32e-15 *** regr.nnet -0.238376 0.365390 -0.652 0.51415 regr.cvglmnet -0.044547 0.004379 -10.174 &lt; 2e-16 *** --- Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 Residual standard error: 9.629 on 122269 degrees of freedom Multiple R-squared: 0.7458, Adjusted R-squared: 0.7458 F-statistic: 7.175e+04 on 5 and 122269 DF, p-value: &lt; 2.2e-16</code></pre> To submit an issue or request support please visit <strong>https://isda-africa.com/isdasoil</strong>
+
+---
+
+**Read more:** [https://doi.org/10.5281/ZENODO.4085159](https://doi.org/10.5281/ZENODO.4085159)

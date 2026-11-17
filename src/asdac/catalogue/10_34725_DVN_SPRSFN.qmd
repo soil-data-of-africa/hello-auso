@@ -1,0 +1,35 @@
+---
+title: 'Soil Spectra and Wet Chemistry Measurements from ICRAF Soil-Plant Spectral
+  Diagnostics Laboratory and Rothamsted Research: Africa Soil Information Service
+  (AfSIS) Phase 2 Project Data 2014-2018 - GhaSIS'
+author:
+- Teteh, Francis
+- Weullow, Elvis
+- Dickens, Ateku
+- Karari, Valentine
+- Markus, Walsh G.
+- McGrath, Steve P.
+- Acquah, Gifty E.
+- Haefele, Stephan M.
+- Gregory, Wendy
+- Durenkamp, Mark
+- Skilton, Ruth
+- Brookman, Melanie
+- Garwood, Chloe
+- Dobermann, Achim
+- Sila, Andrew
+- Shepherd, Keith
+date: '2021'
+doi: 10.34725/DVN/SPRSFN
+resource: https://doi.org/10.34725/DVN/SPRSFN
+type: Dataset
+publisher: World Agroforestry (ICRAF)
+---
+
+## Abstract
+
+AfSIS Phase 2 was a collaborative project funded by the Bill and Melinda Gates Foundation (BMGF). Partners included, Columbia Global Center Africa (CGCA), Earth Institute (EI), International Soil Reference and Information Centre (ISRIC), The Council for Scientific and Industrial Research (CSIR) for Ghana, Kwame Nkrumah University of Science and Technology, Rothamsted Research (RRes) and World Agroforestry (ICRAF). The project aimed to assist national programs in four African countries (Ethiopia, Ghana, Nigeria and Tanzania) to transition to modern agricultural research and data collection practices that were expected to result in faster agricultural development cycles. In Ghana a total of 3,433 soil samples were collected at two sampling depths (0-20cm, 20-50cm) from Nov 2015 to Aug 2016. All the soil samples were scanned using a ZnSe Alpha I spectrometer at the Soil Research Institute of the Council of Science and Industrial Research (CSIR), Kumasi, Ghana. A subset of 210 soil samples was shipped to ICRAF Soil-Plant Spectral Diagnostics Laboratory and scanned on two spectrometers (HTS-xt and ZnSe Alpha I). The same 210 soil samples were also sent to RRes for wet chemistry analysis. The spectra data scanned at CSIR (using ZnSe Alpha I) and that scanned at ICRAF Nairobi (using HTS-xt Tensor 27) and wetchem data (analyzed at RRes) are available on Dataverse here.
+
+---
+
+**Read more:** [https://doi.org/10.34725/DVN/SPRSFN](https://doi.org/10.34725/DVN/SPRSFN)

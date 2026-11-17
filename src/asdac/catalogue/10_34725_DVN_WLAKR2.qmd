@@ -1,0 +1,36 @@
+---
+title: 'Soil Spectra and Wet Chemistry Measurements from ICRAF Soil-Plant Spectral
+  Diagnostics Laboratory and Rothamsted Research: Africa Soil Information Service
+  (AfSIS) Phase 2 Project Data 2014-2018 - NiSIS'
+author:
+- Vincent, Aduramigba-Modupe
+- Ishaku, Amapu
+- Weullow, Elvis
+- Dickens, Ateku
+- Karari, Valentine
+- Markus, Walsh G.
+- McGrath, Steve P.
+- Acquah, Gifty E.
+- Haefele, Stephan M.
+- Gregory, Wendy
+- Durenkamp, Mark
+- Skilton, Ruth
+- Brookman, Melanie
+- Garwood, Chloe
+- Dobermann, Achim
+- Sila, Andrew
+- Shepherd, Keith
+date: '2021'
+doi: 10.34725/DVN/WLAKR2
+resource: https://doi.org/10.34725/DVN/WLAKR2
+type: Dataset
+publisher: World Agroforestry (ICRAF)
+---
+
+## Abstract
+
+AfSIS Phase 2 was a collaborative project funded by the Bill and Melinda Gates Foundation (BMGF). Partners included, Ahmadu Bello University, Columbia Global Center Africa (CGCA), Earth Institute (EI), Institute of Agricultural Research and Training (IAR)/Obafemi Awolowo University, International Soil Reference and Information Centre (ISRIC), Rothamsted Research (RRes) and World Agroforestry (ICRAF). The project aimed to assist national programs in four African countries (Ethiopia, Ghana, Nigeria and Tanzania) to transition to modern agricultural research and data collection practices that were expected to result in faster agricultural development cycles. In Nigeria, 1,491 soil samples were collected at two sampling depths (0-20cm, 20-50cm) from two states – Kebbi and Ebonyi. The samples were shipped to ICRAF Soil-Plant Spectral Diagnostics Laboratory and scanned on two spectrometers (HTS-xt and ZnSe Alpha I). A subset of 149 soil samples was selected for wet chemistry analysis at RRes. Both the spectra data (scanned at ICRAF) and wetchem data (analyzed at RRes) are available on Dataverse here.
+
+---
+
+**Read more:** [https://doi.org/10.34725/DVN/WLAKR2](https://doi.org/10.34725/DVN/WLAKR2)

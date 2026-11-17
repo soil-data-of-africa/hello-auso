@@ -1,0 +1,19 @@
+---
+title: African open soil data
+author:
+- Miller, Matthew
+date: '2023'
+doi: 10.17605/OSF.IO/A69R5
+resource: https://doi.org/10.17605/OSF.IO/A69R5
+type: Dataset
+publisher: OSF
+rights: cc-by-4.0
+---
+
+## Abstract
+
+Open soil analysis data for the African continent
+
+---
+
+**Read more:** [https://doi.org/10.17605/OSF.IO/A69R5](https://doi.org/10.17605/OSF.IO/A69R5)

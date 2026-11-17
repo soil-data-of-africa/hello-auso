@@ -19,37 +19,46 @@ website:
     logo: ./img/logo-bw.png
     right:
       - text: About AUSO
-        file: index.md#about-auso
+        file: about.md
       - text: Who it's for
-        file: index.md#who-is-auso-for
+        file: who.md
       - text: Dashboard
-        file: dashboard.qmd
-      - text: ASDAC
         file: asdac/index.md
       - text: Resources
-        file: resources.md
+        file: asdac/resources/index.md
       - text: Contact
         file: contact.md
   sidebar:
     style: "docked"
     search: true
     contents:
-      - text: ASDAC Home
+      - text: Summary
         file: asdac/index.md
-      - text: Documents
-        file: asdac/documents.md
-      - text: Procedures
-        file: asdac/procedures.md
-      - text: Data platforms
-        file: asdac/data-platforms.md
-      - text: Code Repositories
-        file: asdac/code-repositories.md
-      - text: Videos
-        file: asdac/videos.md
-      - text: Tech manuals
-        file: asdac/tech-manuals.md
-      - text: SIS software
-        file: asdac/sis-software.md
+      - text: Map
+        file: asdac/map.qmd
+      - text: Prioritize
+        file: asdac/prioritize.md
+      - text: Interventions
+        file: asdac/interventions.md
+      - text: Data Catalogue
+        file: asdac/catalogue/index.qmd
+      - text: Tools and Resources
+        file: asdac/resources/index.md
+        menu:
+        - text: Documents
+          file: asdac/resources/documents.md
+        - text: Procedures
+          file: asdac/resources/procedures.md
+        - text: Data platforms
+          file: asdac/resources/data-platforms.md
+        - text: Code Repositories
+          file: asdac/resources/code-repositories.md
+        - text: Videos
+          file: asdac/resources/videos.md
+        - text: Tech manuals
+          file: asdac/resources/tech-manuals.md
+        - text: SIS software
+          file: asdac/resources/sis-software.md
       - text: Community
         file: asdac/community.md
       - text: FAQ
