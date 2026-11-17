@@ -11,7 +11,7 @@ ASDAC resources are clustered in 6 themes
 ::: {.card-body}
 ### [Documents](./documents.md)
 
-Brief descriptor of this page and its contents here ipsum dolor sit amet, consectetur
+Technical manuals that support the development of AUSO, and several other relevant soil resources.
 :::
 :::
 :::
@@ -19,9 +19,9 @@ Brief descriptor of this page and its contents here ipsum dolor sit amet, consec
 ::: {.column width="33%"}
 ::: {.card .m-1}
 ::: {.card-body}
-### [SIS Framework](https://resources.isric.org/sis-framework)
+### [SIS Framework](./sis-software.md)
 
-Brief descriptor of this page and its contents here ipsum dolor sit amet, consectetur
+Soil Information Systems benefit of the use of digital tools to facilitate soil data collection, soil data processing and soil data publication. 
 :::
 :::
 :::
@@ -31,7 +31,7 @@ Brief descriptor of this page and its contents here ipsum dolor sit amet, consec
 ::: {.card-body}
 ### [Data platforms](./data-platforms.md)
 
-Brief descriptor of this page and its contents here ipsum dolor sit amet, consectetur
+Selection of data platforms with a pan African focus on soil
 :::
 :::
 :::
@@ -41,7 +41,7 @@ Brief descriptor of this page and its contents here ipsum dolor sit amet, consec
 ::: {.card-body}
 ### [Code repositories](./code-repositories.md)
 
-Brief descriptor of this page and its contents here ipsum dolor sit amet, consectetur
+various code repositories, where tools are developed to facilitate the soil data domain, in a cooperative way. 
 :::
 :::
 :::
@@ -51,7 +51,7 @@ Brief descriptor of this page and its contents here ipsum dolor sit amet, consec
 ::: {.card-body}
 ### [Video guides](./videos.md)
 
-Brief descriptor of this page and its contents here ipsum dolor sit amet, consectetur
+Selection of videos on various soil related topics, including guides and protocols for field survey and field survey management in different languages. 
 :::
 :::
 :::
@@ -61,7 +61,7 @@ Brief descriptor of this page and its contents here ipsum dolor sit amet, consec
 ::: {.card-body}
 ### [Training and learning](./procedures.md)
 
-Brief descriptor of this page and its contents here ipsum dolor sit amet, consectetur
+Standard operating procedures, guidelines and protocols for continental soil monitoring and assessment
 :::
 :::
 :::

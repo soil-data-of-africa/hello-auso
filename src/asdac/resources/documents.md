@@ -132,3 +132,22 @@ Citation: _FAO_
 {{< icon-link title="Status of the World's Soil Resources" icon="box-arrow-up-right" link="https://www.fao.org/policy-support/tools-and-publications/resources-details/en/c/435200/" >}}
 :::
 
+::: {.collapse title='DSM manual'}
+Digital Soil Mapping (DSM) is a digital variation to traditional soil mapping. Modern digital techniques are used to predict the distribution of soil properties in an area.
+
+{{< icon-link title="DSM manual" icon="box-arrow-up-right" link="https://resources.isric.org/tutorial/dsm_random_forest_modelling/" >}}
+:::
+
+::: {.collapse title='Predicting soil properties using spectral data'}
+A Jupyter Notebook demonstrating how to build AI models for predicting soil properties using Mid-Infrared (MIR) spectral data. The tutorial progresses through three levels of proficiency: Beginner, Intermediate, and Expert, leveraging the [spectraxai](https://github.com/i-bec-org/spectra-xai) library
+
+{{< icon-link title="Open spectral notebook" icon="box-arrow-up-right" link="https://github.com/soil-data-of-africa/spectral" >}}
+:::
+
+::: {.collapse title='FAIR data principles'}
+Guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assets. The principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data.
+
+{{< icon-link title="Open FAIR website" icon="box-arrow-up-right" link="https://www.go-fair.org/fair-principles/" >}}
+:::
+
+

@@ -119,7 +119,7 @@ The partners below form the core development group of AUSO.
 
 :::
 
-[About members](members.md){.hero-btn}
+[About members](about.md#members){.hero-btn}
 
 ## Research partners
 
@@ -140,5 +140,5 @@ The partners below form the core development group of AUSO.
 
 :::
 
-[About research partners](partners.md){.hero-btn}
+[About research partners](about.md#partners){.hero-btn}
 
