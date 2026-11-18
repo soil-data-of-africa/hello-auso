@@ -23,7 +23,7 @@ website:
       - text: Who it's for
         file: who.md
       - text: Dashboard
-        file: asdac/index.md
+        file: asdac/index.qmd
       - text: Resources
         file: asdac/resources/index.md
       - text: Contact
@@ -33,7 +33,7 @@ website:
     search: true
     contents:
       - text: Summary
-        file: asdac/index.md
+        file: asdac/index.qmd
       - text: Map
         file: asdac/map.qmd
       - text: Prioritize

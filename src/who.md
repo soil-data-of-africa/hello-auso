@@ -77,7 +77,7 @@ Brief descriptor of this page and its contents here ipsum dolor sit amet, consec
 ::: {.column width="33%"}
 ::: {.card .m-1}
 ::: {.card-body}
-### [Resources](asdac/index.md)
+### [Resources](asdac/resources/index.md)
 
 Brief descriptor of this page and its contents here ipsum dolor sit amet, consectetur
 :::

@@ -1,0 +1,59 @@
+---
+title: Dashboard
+---
+
+# Summary
+
+Dynamic content per country select
+Summary sentence that describes the map overview & data, starting at the continental view
+
+:::: {.columns .pb-3}
+::: {.column}
+<select class="w-100 form-select">
+<option>Select region</option>
+</select>
+:::
+::: {.column} 
+<select class="w-100 form-select">
+<option>Select country</option>
+</select>
+:::
+::::
+
+
+::: {.panel-tabset}
+
+## Summary
+
+Dynamic overview of the themes available for the country selected (as shown in the buttons above). Include
+overview of this pages content, any links to datasets, or other relevant information.
+
+```{mermaid}
+xychart-beta
+    title "Phospohorous"
+    x-axis [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]
+    y-axis "Contents (mg/kg)" 4000 --> 11000
+    bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
+    line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
+```
+
+
+## Threats
+
+Ut metus ante, aliquam vel posuere vitae, viverra nec tortor. Sed massa felis, imperdiet sed viverra vitae, sagittis quis tellus. Sed aliquet molestie est fermentum eleifend. In suscipit quis tellus at luctus. Integer lorem urna, porttitor vitae iaculis et, suscipit non orci. Aliquam ullamcorper justo felis, id venenatis est pulvinar ac. Donec ultricies in neque ut cursus.
+
+## Climate
+
+Sed eget facilisis enim, et molestie purus. Vivamus quis accumsan mauris. Sed gravida consectetur sem sit amet vestibulum. Nam finibus commodo lorem, ac consectetur ante cursus eget. Aenean finibus elit elit, sed fermentum purus condimentum vel. Quisque sit amet erat pulvinar, pharetra dolor et, porttitor diam. Maecenas sit amet tempus tellus. Quisque tristique eleifend quam in tempor. Proin varius turpis urna, quis vehicula metus fringilla commodo. Integer dapibus mauris eget mauris fermentum viverra. Fusce id nulla ac ipsum porta lobortis sit amet vel ipsum.
+
+## Land use
+
+Morbi in dolor in nibh pellentesque consequat. Morbi iaculis massa ante, at tincidunt erat mattis sit amet. Donec sagittis lacinia nisi. Quisque in sem sollicitudin ante mattis ornare. Fusce a magna risus. Integer in erat sed tortor mollis vulputate quis quis leo. Curabitur dolor est, aliquet eu lacus id, tincidunt fermentum lorem. Duis nec velit commodo, consectetur magna ut, lobortis nunc. Donec nec purus vitae enim consectetur mattis. Nunc volutpat neque ac arcu bibendum, in malesuada neque imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut nulla facilisis, ornare nibh vel, porta magna.
+
+
+
+## Agroecological zones
+
+Curabitur dolor est, aliquet eu lacus id, tincidunt fermentum lorem. Duis nec velit commodo, consectetur magna ut, lobortis nunc. Donec nec purus vitae enim consectetur mattis. Nunc volutpat neque ac arcu bibendum, in malesuada neque imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut nulla facilisis, ornare nibh vel, porta magna.
+
+:::
