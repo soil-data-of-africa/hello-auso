@@ -82,67 +82,67 @@
 
     "Total nitrogen (N)": {
       name: "af250m_nutrient_n_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/kg"
     },
 
     "Total phosphorus (P)": {
       name: "af250m_nutrient_p_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/kg"
     },
 
     "Extractable phosphorus (P)": {
       name: "af250m_nutrient_p_t_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/100kg"
     },
 
     "Potassium (K)": {
       name: "af250m_nutrient_k_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/kg"
     },
 
     "Calcium (Ca)": {
       name: "af250m_nutrient_ca_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/kg"
     },
 
     "Magnesium (Mg)": {
       name: "af250m_nutrient_mg_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/kg"
     },
 
     "Sodium (Na)": {
       name: "af250m_nutrient_na_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/kg"
     },
 
     "Aluminium (Al)": {
       name: "af250m_nutrient_al_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/kg"
     },
 
     "Boron (B)": {
       name: "af250m_nutrient_b_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/100kg"
     },
 
     "Copper (Cu)": {
       name: "af250m_nutrient_cu_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/100kg"
     },
 
     "Iron (Fe)": {
       name: "af250m_nutrient_fe_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/kg"
     },
 
     "Manganese (Mn)": {
       name: "af250m_nutrient_mn_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/kg"
     },
 
     "Zinc (Zn)": {
       name: "af250m_nutrient_zn_m_agg30cm",
-      unit: "ppm"
+      unit: "mg/100kg"
     }
 
   };
@@ -267,31 +267,15 @@
 
 
   legend.onAdd = function () {
-
-    const div = L.DomUtil.create(
+    return L.DomUtil.create(
       "div",
       "soilgrids-legend"
     );
-
-    div.innerHTML = `
-      <div class="soilgrids-legend-title">
-        Total nitrogen (N)
-      </div>
-      <img
-        src="${legendURL(
-          layers["Total nitrogen (N)"].name
-        )}"
-        alt="Legend"
-      >
-    `;
-
-    return div;
-
   };
 
 
   legend.addTo(map);
-
+  updateLegend('Total nitrogen (N)','mg/kg');
 
   function legendURL(layerName) {
 
@@ -311,7 +295,7 @@
   }
 
 
-  function updateLegend(label) {
+  function updateLegend(label, unit) {
 
     const config = layers[label];
 
@@ -324,7 +308,7 @@
 
     legendElement.innerHTML = `
       <div class="soilgrids-legend-title">
-        ${label}
+        ${label} (${unit})
       </div>
 
       <img
@@ -342,31 +326,32 @@
 
   map.on("overlayadd", function (event) {
 
+    // skip the event for activelayer
+
     const selected = Object.entries(wmsLayers)
       .find(([label, layer]) => layer === event.layer);
 
     if (!selected) return;
-
-    const label = selected[0];
-
+    
+    if (selected[0] != activeLayerName){
+    
+    let label = selected[0];
+    let unit = layers[label].unit
     activeLayerName = label;
-
-    updateLegend(label);
 
     // Remove all other nutrient layers.
     Object.entries(wmsLayers).forEach(
       ([otherLabel, layer]) => {
-
-        if (
-          otherLabel !== label &&
-          map.hasLayer(layer)
-        ) {
-          map.removeLayer(layer);
+        if (otherLabel !== label && map.hasLayer(layer)) {
+          setTimeout(()=>{
+            map.removeLayer(layer);
+          })
         }
-
       }
     );
 
+    updateLegend(label, unit);
+    }
   });
 
 
