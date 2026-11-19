@@ -3,9 +3,17 @@ title: Interventions
 sidebar: true
 ---
 
-## Interventions
+:::: {.columns}
+::: {.column}
+# Interventions
+:::
+::: {.column}
+[![](../img/WOCAT.webp){.w-50 .pt-3 .align-right}](https://wocat.net)
+:::
+::::
 
 Interventions are selected from the [WOCAT database](https://wocat.net).
+
 
 <div class=row>
 <div class="mb-3">
